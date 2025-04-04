@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+}
+
+h2 {
+  text-align: center;
+}
+ul {
+  list-style: none;
+}
+.botoes {
+  background-color: #2d70fd;
+  color: white;
+  border-radius: 5px;
+}
+#concluir {
+  font-size: 10px;
+}
+#hs {
+  display: flex;
+  font-size: 15px;
+  margin-left: 35px;
+  gap: 75px;
+}
+#listaContainer {
+  display: flex;
+  overflow-y: auto;
+  gap: 10px;
+  justify-content: space-between;
+}
+#div-lista {
+  font-size: 16px;
+  max-height: 120px;
+  overflow-y: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#lista-imagens {
+  display: flex;
+  max-height: 120px;
+  overflow-y: auto;
+  justify-content: space-between;
+}
+#lista-riscada {
+  text-decoration: line-through;
+  font-size: 16px;
+}
+
+#container {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+#imgContainer {
+  display: flex;
+  overflow-y: auto;
+  gap: 10px;
+  justify-content: space-between;
+  text-decoration: line-through;
+}
+
+#hs_riscado {
+  display: flex;
+  font-size: 15px;
+  margin-left: 35px;
+  gap: 110px;
+}
+
+/* Media querys*/
+
+@media (max-width: 377px) {
+  * {
+    margin: 2px;
+  }
+  #btadicionar {
+    width: 92%;
+  }
+  #etiqueta {
+    width: 90%;
+  }
+  #tarefa {
+    width: 90%;
+  }
+  #h3_tarefas {
+    margin-left: -20px;
+  }
+
+  #h3_tarefas_riscado {
+    margin-left: -25px;
+  }
+  #hs_riscado {
+    gap: 70px;
+  }
+
+  #hs {
+    gap: 40px;
+  }
+
+  #lista-imagens {
+    margin-left: -30px;
+  }
+  #div-lista {
+    justify-content: space-between;
+    margin-left: -30px;
+  }
+}
