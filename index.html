@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/styles.css" />
+
+  <script src="index.js"></script>
+
+  <title>Gerenciador de Tarefas</title>
+</head>
+
+<body>
+
+  <head>
+    <h1>Board de tarefas</h1>
+  </head>
+  <main>
+    <form id="form" onsubmit="salvarTarefa(event)">
+      <input type="text" id="tarefa" name="tarefa" placeholder="Nome da tarefa" required />
+      <input type="text" id="etiqueta" name="etiqueta" placeholder="Etiqueta" required />
+
+      <button id="btadicionar" class="botoes" type="submit">+</button>
+    </form>
+
+    <div id="div-lista">
+      <ul id="lista"></ul>
+      <ul id="etiquetas"></ul>
+    </div>
+
+    <div id="lista-imagens">
+      <ul id="lista-riscada"></ul>
+      <ul id="imagens-riscada"></ul>
+    </div>
+
+  </main>
+  <footer>
+    <label id="contador">Tarefas: </label>
+  </footer>
+</body>
+
+</html>
