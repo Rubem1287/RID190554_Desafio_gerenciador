@@ -1,0 +1,407 @@
+body {
+  margin: 0;
+  display: flexbox;
+  justify-content: center;
+  background-color: whitesmoke;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 3rem;
+  margin-left: 49rem;
+  white-space: nowrap;
+}
+
+ul {
+  list-style: none;
+}
+
+.botoes {
+  background-color: #2d70fd;
+  color: white;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+main {
+  background-color: white;
+  border-radius: 10px;
+  width: 50rem;
+  height: 32rem;
+  margin-left: 34rem;
+  padding-top: 5rem;
+  margin-top: -5.5rem;
+  padding-bottom: 8rem;
+}
+
+#div-lista {
+  margin-right: 0.8rem;
+  padding-right: 1rem;
+  margin-left: 1rem;
+  margin-right: 2rem;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+  max-height: 13rem;
+  overflow: auto;
+  margin-top: 2em;
+  display: flex;
+  border-radius: 15px;
+}
+
+#lista {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.7rem;
+  margin-top: 1rem;
+  white-space: nowrap;
+  padding-bottom: 1rem;
+  gap: 1rem;
+}
+
+#etiqueta_circulo {
+  border-radius: 16px;
+  border: 2px solid #B1BACB;
+  width: 5rem;
+  height: 1.5rem;
+  gap: 0rem;
+  color: #B1BACB;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: -1rem;
+
+}
+
+#btnConcluir {
+  background-color: #2d70fd;
+  color: white;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: -2rem;
+  margin-left: 32rem;
+  justify-content: space-between;
+  padding: 0.7rem;
+  width: 8rem;
+  cursor: pointer
+}
+
+#datas {
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  margin-left: 6rem;
+  color: #0b0b0b;
+  margin-top: -2.3rem;
+  color: #B1BACB;
+  justify-content: space-between;
+
+}
+
+#tarefa {
+  margin-left: 2rem;
+  width: 17rem;
+  height: 3rem;
+  padding-top: -5rem;
+  border: 2px solid #EEEEEE;
+  font-size: 1rem;
+  padding-left: 2rem;
+}
+
+#etiqueta {
+  margin-left: 0.5rem;
+  width: 17rem;
+  height: 3rem;
+  border: 2px solid #EEEEEE;
+  font-size: 1rem;
+  padding-left: 2rem;
+}
+
+input::placeholder {
+  color: #B1BACB;
+}
+
+#btadicionar {
+  width: 3.5rem;
+  height: 3rem;
+  margin-left: 2rem;
+}
+
+#lista-imagens {
+  margin-right: 0.8rem;
+  padding-right: 1rem;
+  margin-left: 1rem;
+  margin-right: 2rem;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+  max-height: 13rem;
+  overflow: auto;
+  margin-top: 2rem;
+  display: flex;
+  border-radius: 15px;
+}
+
+
+#lista-riscada {
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5rem;
+
+}
+
+#li_riscado1 {
+  text-decoration: line-through;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.7rem;
+  margin-top: 1rem;
+  white-space: nowrap;
+}
+
+#li_riscado2 {
+  border-radius: 16px;
+  border: 2px solid #B1BACB;
+  width: 5rem;
+  height: 1.5rem;
+  gap: 0rem;
+  color: #B1BACB;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 0.8rem;
+}
+
+#datas_riscada {
+  display: flex;
+  flex-direction: column;
+  margin-left: 6rem;
+  color: #0b0b0b;
+  margin-top: -1.5rem;
+  color: #B1BACB;
+  justify-content: space-between;
+  font-size: 1.2rem;
+
+
+
+
+}
+
+#img {
+  margin-left: 38rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: -2.8rem;
+  border-radius: 16px;
+  background-color: #00D8A7;
+  width: 1.8rem;
+  height: 1.8rem;
+  border: 0.4rem solid#00D8A7;
+  margin-bottom: 2.5rem;
+
+}
+
+#contador {
+  font-size: 1.3rem;
+  margin-left: 37rem;
+  color: #B1BACB;
+}
+
+footer {
+  background-color: white;
+  height: 3rem;
+  padding-top: 1.5rem;
+  padding-bottom: 0rem;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  width: 50rem;
+  margin-left: 34rem;
+  margin-top: -4rem;
+}
+
+/* Media querys*/
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+
+  }
+
+  main {
+    background-color: white;
+    border-radius: 10px;
+    width: 30rem;
+    height: 24rem;
+    padding-top: 5rem;
+    margin-top: -4.5rem;
+    padding-bottom: 15rem;
+    margin-left: 0.5rem;
+  }
+
+  #btadicionar {
+    width: 28rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  #etiqueta {
+    width: 25.5rem;
+    margin-left: 1rem;
+    margin-bottom: 0.4rem;
+  }
+
+  #tarefa {
+    width: 25.5rem;
+    margin-left: 1rem;
+    margin-bottom: 0.4rem;
+
+  }
+
+
+  #div-lista {
+    max-height: 10rem;
+    overflow-y: auto;
+    display: flex;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    margin-left: 0rem;
+    margin-right: 0rem;
+    border-radius: 15px;
+    white-space: nowrap;
+    margin-top: -1rem;
+  }
+
+  #lista {
+    font-size: 1.2rem;
+    gap: 1rem;
+    padding-bottom: 5rem;
+
+
+  }
+
+  #datas {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+    color: #0b0b0b;
+    margin-top: -3.3rem;
+    color: #B1BACB;
+
+  }
+
+  #etiqueta_circulo {
+    border-radius: 16px;
+    border: 2px solid #B1BACB;
+    width: 4rem;
+    height: 1.5rem;
+    padding-left: 0.5rem;
+    margin-left: -1.5rem;
+    gap: 4rem;
+    text-align: center;
+    margin-top: -3rem;
+    margin-bottom: 1rem;
+
+
+  }
+
+  #btnConcluir {
+    background-color: #2d70fd;
+    color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0rem;
+    margin-left: 18rem;
+    margin-right: -5rem;
+    padding: 0.5rem;
+    width: 6rem;
+    gap: 0rem;
+    cursor: pointer
+  }
+
+  #lista-imagens {
+    max-height: 10rem;
+    overflow-y: auto;
+    display: flex;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    margin-left: 0rem;
+    margin-right: 0rem;
+    border-radius: 15px;
+    white-space: nowrap;
+    margin-top: 1rem;
+  }
+
+
+
+  /* #li_riscado2 {
+    border-radius: 16px;
+    border: 2px solid #B1BACB;
+    width: 5rem;
+    height: 1.5rem;
+    margin-left: -13rem;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 1.3rem;
+
+
+  } */
+
+  #li_riscado1 {
+    font-size: 1.2rem;
+    gap: 1rem;
+    padding-bottom: 5rem;
+  }
+
+  #li_riscado2 {
+    border-radius: 16px;
+    border: 2px solid #B1BACB;
+    width: 4rem;
+    height: 1.5rem;
+    padding-left: 0.5rem;
+    margin-left: -1.5rem;
+    gap: 4rem;
+    text-align: center;
+    margin-top: -7.5rem;
+    margin-bottom: 1rem;
+
+
+  }
+
+  #datas_riscada {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+    color: #0b0b0b;
+    margin-top: -6.2rem;
+    color: #B1BACB;
+  }
+
+  #img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 19rem;
+    margin-top: -7rem;
+    margin-bottom: 2rem;
+  }
+
+  #contador {
+    font-size: 0.8rem;
+    margin-left: 10rem;
+    font-weight: bold;
+  }
+
+  footer {
+    background-color: white;
+    height: 2.2rem;
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    width: 29rem;
+    margin-left: 1rem;
+    margin-top: -5rem;
+  }
+
+
+}
